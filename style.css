@@ -1,0 +1,70 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+    /* border: 3px solid green; */
+    padding: 20px;
+    margin: 20px;
+
+    width: 700px;
+
+    border: 1px solid green;
+}
+
+
+
+
+.select .option img{
+    width: 200px;
+}
+
+
+.select .option img:hover{
+    border: 3px solid blue;
+}
+
+
+.title{
+    text-align: center;
+    margin: 20px;
+}
+
+
+
+.game{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+    border: 1px solid greenyellow;
+
+    width:1000px;
+}
+
+
+
+.result{
+    border: 1px solid greenyellow;
+    max-width: 500px;
+
+    margin: 20px;
+}
+
+.start{
+    margin: 20px;;
+}

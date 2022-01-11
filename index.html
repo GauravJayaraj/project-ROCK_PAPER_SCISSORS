@@ -6,9 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock-paper-scissors</title>
 
-    <script src="game.js"></script>
+    <!-- <script src="game.js"></script> -->
+    <script src="game_ui.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body onload="game();">
-    <h1>inspect page to see result</h1>
+<body>
+    <div class="title">
+        <h1>Rock-paper-scissors</h1>
+    </div>
+    <div class="game">
+        <div class="select">
+            <div class="option">
+                <a id='rock' class='choice'><img src="./images/rock.jpg" alt="Rock"></a>
+            </div>
+            <div class="option">
+                <a id='paper' class='choice'><img src="./images/paper.jpg" alt="Paper"></a>
+            </div>
+            <div class="option">
+                <a id='scissor' class='choice'><img src="./images/scissor.jpg" alt="Scissors"></a>
+            </div>
+        </div>
+    
+        <div class="result">
+            To Start playing click the card of your choice above
+        </div>
+
+        <div class="start">
+            <p>First to Five wins</p>
+
+            <p id='cscore'>computer:0</p>
+            <p id='pscore'>player:0</p>
+        </div>
+    </div>
+    
 </body>
 </html>
