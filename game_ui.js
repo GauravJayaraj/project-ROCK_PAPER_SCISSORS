@@ -68,6 +68,7 @@ function computerPlay(){
 
 const playerInputs = document.querySelectorAll('.choice');
 
+// GAME START
 playerInputs.forEach(
     (input)=>{
         input.addEventListener('click',(event)=>{
